@@ -1,6 +1,14 @@
-<aside id="left-panel">
+<!--style type="text/css">
+    aside {
+    ;background:linear-gradient(to right, rgba(58, 54, 51, 0.08) 93%, rgba(42, 39, 37, 0.1) 100%)
 
-    <div >
+    }
+</style!-->
+
+
+<aside id="left-panel" >
+
+    <div class="login-info">
             <span> <!-- User image size is adjusted inside CSS, it should stay as it -->
 
                 <a href="javascript:void(0);" id="show-shortcut" data-action="toggleShortcut">
@@ -25,9 +33,9 @@
 
 
             <li>
-              <a href="#">
-			          <i class="fa fa-lg fa-fw fa-list-alt"></i> <span class="menu-item-parent">Privilegios </span><b class="collapse-sign"><em class="fa fa-plus-square-o"></em></b></a>
-                  <ul>
+                <a href="#">
+                    <i class="fa fa-lg fa-fw fa-list-alt"></i> <span class="menu-item-parent">Privilegios </span><b class="collapse-sign"><em class="fa fa-plus-square-o"></em></b></a>
+                <ul>
                     <li >
                         <a href="{{ route('users.index') }}"  title="Dashboard"><i class="fa fa-lg fa-fw fa-users"></i> <span class="menu-item-parent">Usuarios</span><b class="collapse-sign"><em class="fa fa-minus-square-o"></em></b></a>
                     </li>
@@ -35,7 +43,7 @@
                     <li >
                         <a href="{{ route('roles.index') }}"  title="Dashboard"><i class="fa fa-lg fa-fw fa-users"></i> <span class="menu-item-parent">Roles</span><b class="collapse-sign"><em class="fa fa-minus-square-o"></em></b></a>
                     </li>
-                  </ul>
+                </ul>
             </li>
 
 
