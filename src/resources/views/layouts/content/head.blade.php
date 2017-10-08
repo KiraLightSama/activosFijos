@@ -23,7 +23,9 @@
    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('/smar/css/your_style.css') }}">
 <!--link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"!-->
 <!--link type="text/css" href="https://cdn.datatables.net/buttons/1.1.2/css/buttons.dataTables.min.css" rel="stylesheet"!-->
+   <link rel="stylesheet" type="text/css" media="screen" href="./smar/css/smartadmin-rtl.min.css">
 
+   <link rel="stylesheet" type="text/css" media="screen" href="./smar/css/demo.min.css">
 
    <!-- iOS web-app metas : hides Safari UI Components and Changes Status Bar Appearance -->
    <meta name="apple-mobile-web-app-capable" content="yes">

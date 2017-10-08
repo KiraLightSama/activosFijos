@@ -30,6 +30,7 @@
 <!-- JQUERY VALIDATE -->
 <script src="{{ asset('./smar/js/plugin/jquery-validate/jquery.validate.min.js') }}"></script>
 
+
 <!-- JQUERY MASKED INPUT -->
 <script src="{{ asset('./smar/js/plugin/masked-input/jquery.maskedinput.min.js') }}"></script>
 
@@ -44,6 +45,12 @@
 <script src="{{ asset('./smar/js/plugin/fastclick/fastclick.min.js') }}"></script>
 
 <script src="{{ asset('./smar/js/smartwidgets/jarvis.widget.min.js') }}"></script>
+
+
+<!-- Demo purpose only -->
+
+<!-- Demo purpose only -->
+<script src="./smar/js/demo.min.js"></script>
 
 
 
@@ -68,3 +75,4 @@
 			})
 
 		</script>
+
