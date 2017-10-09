@@ -9,7 +9,7 @@
 
      @include('layouts.content.header')
 
-
+º
      @include('layouts.content.aside')
 
      <div id="main" role="main">
