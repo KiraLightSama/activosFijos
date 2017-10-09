@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe2a100a-ecaf-465b-8119-8a81b4f040dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/smar/js/demo.min.js" afterPath="$PROJECT_DIR$/public/smar/js/demo.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/views/layouts/content/footer.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/layouts/content/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/views/layouts/content/head.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/layouts/content/head.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/views/layouts/content/script.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/layouts/content/script.blade.php" />
-    </list>
+    <list default="true" id="fe2a100a-ecaf-465b-8119-8a81b4f040dd" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,33 +21,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="appp.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/appp.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <marker date="1500361542000" expanded="true" signature="47:69" ph="..." />
-                <marker date="1500361542000" expanded="true" signature="78:91" ph="..." />
-                <marker date="1500361542000" expanded="true" signature="128:152" ph="..." />
-                <marker date="1500361542000" expanded="true" signature="170:193" ph="..." />
-                <marker date="1500361542000" expanded="true" signature="698:707" ph="..." />
-                <marker date="1500361542000" expanded="true" signature="771:795" ph="..." />
-                <marker date="1500361542000" expanded="true" signature="811:835" ph="..." />
-                <marker date="1500361542000" expanded="true" signature="849:864" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/content/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-              <folding>
-                <element signature="e#550#556#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,26 +34,9 @@
       <file leaf-file-name="script.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/content/script.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="663">
               <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <marker date="1507492526831" expanded="true" signature="182:226" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="324:368" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="398:447" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="509:543" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="648:717" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="769:816" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="875:933" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="987:1041" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="1091:1152" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="1207:1273" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="1333:1399" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="1459:1509" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="1572:1633" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="1702:1756" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="1786:1840" ph="..." />
-                <marker date="1507492526831" expanded="true" signature="2002:2033" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,7 +54,7 @@
       <file leaf-file-name="scrip-datatable.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/content/scrip-datatable.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1830">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -110,12 +66,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1505610785718" expanded="true" signature="86:116" ph="..." />
-                <marker date="1505610785718" expanded="true" signature="607:623" ph="..." />
-                <marker date="1505610785718" expanded="true" signature="876:892" ph="..." />
-                <marker date="1505610785718" expanded="true" signature="984:998" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,18 +74,9 @@
       <file leaf-file-name="head.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/content/head.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="425">
               <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-              <folding>
-                <marker date="1507493495021" expanded="true" signature="432:446" ph="..." />
-                <marker date="1507493495021" expanded="true" signature="540:577" ph="..." />
-                <marker date="1507493495021" expanded="true" signature="647:688" ph="..." />
-                <marker date="1507493495021" expanded="true" signature="864:914" ph="..." />
-                <marker date="1507493495021" expanded="true" signature="984:1029" ph="..." />
-                <marker date="1507493495021" expanded="true" signature="1072:1105" ph="..." />
-                <marker date="1507493495021" expanded="true" signature="1159:1188" ph="..." />
-                <marker date="1507493495021" expanded="true" signature="1279:1314" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,19 +101,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/smar/js/demo.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="97" lean-forward="false" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+            <state relative-caret-position="272">
+              <caret line="16" column="67" lean-forward="false" selection-start-line="14" selection-start-column="97" selection-end-line="16" selection-end-column="67" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1507495712439" expanded="true" signature="1077:1091" ph="..." />
-                <marker date="1507495712439" expanded="true" signature="1734:1759" ph="..." />
-                <marker date="1507495712439" expanded="true" signature="1965:1984" ph="..." />
-                <marker date="1507495712439" expanded="true" signature="2152:2168" ph="..." />
-                <marker date="1507495712439" expanded="true" signature="2351:2369" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -226,8 +173,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -245,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -272,181 +220,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smar" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smar" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activosFijos" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smar" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,11 +230,13 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xamppp\htdocs\activosFijos\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xamppp\htdocs\activosFijos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\activosFijos\src" />
+      <recent name="C:\laragon\www\activosFijos\src\vendor" />
+      <recent name="C:\xamppp\htdocs\activosFijos\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -557,24 +334,25 @@
       <workItem from="1507050401043" duration="969000" />
       <workItem from="1507398965506" duration="3415000" />
       <workItem from="1507491720577" duration="3625000" />
+      <workItem from="1507584707790" duration="1098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21121000" />
+    <option name="totallyTimeSpent" value="22219000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685325" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27693474" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -616,13 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" column="84" lean-forward="false" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/ActivoController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
@@ -634,14 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <marker date="1507404210602" expanded="true" signature="514:534" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="703:718" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="1227:1249" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="1518:1540" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="2094:2117" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="2385:2408" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,16 +412,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1507493495021" expanded="true" signature="432:446" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="540:577" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="647:688" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="864:914" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="984:1029" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="1072:1105" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="1159:1188" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="1279:1314" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -924,31 +678,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <marker date="1507404210602" expanded="true" signature="514:534" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="703:718" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="1227:1249" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="1518:1540" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="2094:2117" ph="..." />
-            <marker date="1507404210602" expanded="true" signature="2385:2408" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/appp.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1500361542000" expanded="true" signature="47:69" ph="..." />
-            <marker date="1500361542000" expanded="true" signature="78:91" ph="..." />
-            <marker date="1500361542000" expanded="true" signature="128:152" ph="..." />
-            <marker date="1500361542000" expanded="true" signature="170:193" ph="..." />
-            <marker date="1500361542000" expanded="true" signature="698:707" ph="..." />
-            <marker date="1500361542000" expanded="true" signature="771:795" ph="..." />
-            <marker date="1500361542000" expanded="true" signature="811:835" ph="..." />
-            <marker date="1500361542000" expanded="true" signature="849:864" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/content/scrip-datatable.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1830">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -972,12 +709,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1505610785718" expanded="true" signature="86:116" ph="..." />
-            <marker date="1505610785718" expanded="true" signature="607:623" ph="..." />
-            <marker date="1505610785718" expanded="true" signature="876:892" ph="..." />
-            <marker date="1505610785718" expanded="true" signature="984:998" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -985,51 +717,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-          <folding>
-            <element signature="e#550#556#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/content/script.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="663">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <marker date="1507492526831" expanded="true" signature="182:226" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="324:368" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="398:447" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="509:543" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="648:717" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="769:816" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="875:933" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="987:1041" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="1091:1152" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="1207:1273" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="1333:1399" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="1459:1509" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="1572:1633" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="1702:1756" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="1786:1840" ph="..." />
-            <marker date="1507492526831" expanded="true" signature="2002:2033" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/content/head.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="425">
           <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-          <folding>
-            <marker date="1507493495021" expanded="true" signature="432:446" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="540:577" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="647:688" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="864:914" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="984:1029" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="1072:1105" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="1159:1188" ph="..." />
-            <marker date="1507493495021" expanded="true" signature="1279:1314" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,16 +755,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/smar/js/demo.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="97" lean-forward="false" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+        <state relative-caret-position="272">
+          <caret line="16" column="67" lean-forward="false" selection-start-line="14" selection-start-column="97" selection-end-line="16" selection-end-column="67" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1507495712439" expanded="true" signature="1077:1091" ph="..." />
-            <marker date="1507495712439" expanded="true" signature="1734:1759" ph="..." />
-            <marker date="1507495712439" expanded="true" signature="1965:1984" ph="..." />
-            <marker date="1507495712439" expanded="true" signature="2152:2168" ph="..." />
-            <marker date="1507495712439" expanded="true" signature="2351:2369" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
