@@ -13,4 +13,8 @@ class Grupo extends Model
   protected $fillable = [
      'id ', 'nombre','direccion','codigo'
    ];
+    public function activos()
+    {
+        return $this->hasMany(\App\Activo::class, 'grupos_id');
+    }
 }
