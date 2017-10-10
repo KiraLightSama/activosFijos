@@ -44,4 +44,7 @@ Route::group(['middleware' => ['auth']], function() {
     Route::post('grupos/create',['as'=>'grupos.store','uses'=>'GrupoController@store']);
 
 		Route::resource ('proveedores', 'ProveedorController');
+		Route::resource ('empresas', 'EmpresaController');
+		Route::resource ('areas', 'AreaController');
+		Route::resource ('bajas', 'BajaController');
 });

@@ -11,13 +11,13 @@ use Reliese\Database\Eloquent\Model as Eloquent;
 
 /**
  * Class Baja
- * 
+ *
  * @property int $id
  * @property \Carbon\Carbon $fecha
  * @property string $bajascol
  * @property int $causasDeBajas_id
  * @property int $tipoDeCambio_id
- * 
+ *
  * @property \App\Causasdebaja $causasdebaja
  * @property \App\Tipodecambio $tipodecambio
  * @property \Illuminate\Database\Eloquent\Collection $detallebajas
@@ -28,7 +28,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
 class Baja extends Eloquent
 {
 	public $timestamps = false;
-
+	protected $table = 'bajas';
 	protected $casts = [
 		'causasDeBajas_id' => 'int',
 		'tipoDeCambio_id' => 'int'
