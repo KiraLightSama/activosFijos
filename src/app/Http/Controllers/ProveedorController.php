@@ -6,12 +6,15 @@ use Illuminate\Http\Request;
 use App\Proveedor;
 use DB;
 use Illuminate\Support\Facades\redirect;
+use App\Http\Controllers\BitacoraController;
 
 class ProveedorController extends Controller
 {
     public function index(Request $request)
     {
         $proveedores=DB::table('proveedores')->get();
+
+        BitacoraController::store($request,"Lista de Proveedores");
         return view('provedores.index',compact('proveedores'));
     }
     public function create()
@@ -31,6 +34,8 @@ class ProveedorController extends Controller
         $proveedor->empresa = $request->input('empresa');
         $proveedor->telefono = $request->input('telefono');
         $proveedor->correo = $request->input('correo');
+
+        BitacoraController::store($request,"Creo un nuevo proveedor");
 
         //$proveedor->save();
         return Redirect::to('proveedores');
@@ -56,6 +61,8 @@ class ProveedorController extends Controller
         $proveedor->correo = $request->input('correo');
 
         $proveedor->update();
+
+        BitacoraController::store($request,"Modifico un Proveedor");
 
         return Redirect::to('proveedores');
     }

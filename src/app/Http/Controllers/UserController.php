@@ -8,46 +8,36 @@ use App\User;
 use App\Role;
 use App\Empleado;
 
-use App\Bitacora;
 use DB;
 use Hash;
 use Illuminate\Support\Facades\Auth;
 use App\Notifications\PostNewNotification;
 use Symfony\Component\HttpFoundation\HeaderBag;
+use App\Http\Controllers\BitacoraController;
 
 class UserController extends Controller
 {
+
     public function index(Request $request)
     {
 
         $data = User::orderBy('id','DESC')->get();
         $user=Auth::user();
        // dd($request->ip());
-
-        $bitacora=new Bitacora();
-        $bitacora->Correo=$user->email;
-        $bitacora->Nombre=$user->name;
-        $bitacora->Accion='vista de tabla usuarios';
-        $bitacora->Navegador=$request->header('User-Agent');
-        $bitacora->Url=$request->fullUrl();
-
-        $bitacora->save();
-
+        BitacoraController::store($request,"Lista de los usuarios");
 
         return view('users.index',compact('data'))
             ->with('i', ($request->input('page', 1) - 1) * 5);
 
     }
 
-
     public function create()
     {
       $empleados=Empleado::all();
         $roles = Role::all('name','display_name','id');
+
         return view('users.create',compact('roles','empleados'));
     }
-
-
 
     public function store(Request $request)
     {
@@ -70,47 +60,30 @@ class UserController extends Controller
         foreach ($request->input('roles') as $key => $value) {
             $user->attachRole($value);
         }
+        BitacoraController::store($request,"Creo un nuevo usuario");
 
         return redirect()->route('users.index')
                         ->with('success','User created successfully');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
         $user = User::find($id);
         return view('users.show',compact('user'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit($id)
     {
         $user = User::find($id);
         $empleados=Empleado::all();
-
         $roles = Role::all('name','display_name','id');
 
         $userRole = $user->roles->pluck('id','id')->toArray();
         return view('users.edit',compact('user','roles','userRole','empleados'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(Request $request, $id)
     {
         $this->validate($request, [
@@ -134,19 +107,19 @@ class UserController extends Controller
         foreach ($request->input('roles') as $key => $value) {
             $user->attachRole($value);
         }
+        BitacoraController::store($request,"Modifico un Usuario");
 
         return redirect()->route('users.index')
                         ->with('success','User updated successfully');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
     //                    ->with('success','User deleted successfully');
     }
+
+
+
+
+
 }
