@@ -44,4 +44,7 @@ Route::group(['middleware' => ['auth']], function() {
     Route::post('grupos/create',['as'=>'grupos.store','uses'=>'GrupoController@store']);
 
 		Route::resource ('proveedores', 'ProveedorController');
+    Route::get('backup/lista',['as'=>'backup.index','uses'=>'BackupController@index']);
+    Route::get('backup',['as'=>'backup.backup','uses'=>'BackupController@backup']);
+
 });

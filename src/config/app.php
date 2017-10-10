@@ -183,7 +183,8 @@ return [
         Zizaco\Entrust\EntrustServiceProvider::class,
         Yajra\Datatables\DatatablesServiceProvider::class,
 
-
+        Spatie\Backup\BackupServiceProvider::class,
+      //  Backpack\BackupManager\BackupManagerServiceProvider::class,
 
     ],
 
