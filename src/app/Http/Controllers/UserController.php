@@ -8,20 +8,35 @@ use App\User;
 use App\Role;
 use App\Empleado;
 
-
+use App\Bitacora;
 use DB;
 use Hash;
 use Illuminate\Support\Facades\Auth;
 use App\Notifications\PostNewNotification;
+use Symfony\Component\HttpFoundation\HeaderBag;
 
 class UserController extends Controller
 {
     public function index(Request $request)
     {
+
         $data = User::orderBy('id','DESC')->get();
         $user=Auth::user();
+       // dd($request->ip());
+
+        $bitacora=new Bitacora();
+        $bitacora->Correo=$user->email;
+        $bitacora->Nombre=$user->name;
+        $bitacora->Accion='vista de tabla usuarios';
+        $bitacora->Navegador=$request->header('User-Agent');
+        $bitacora->Url=$request->fullUrl();
+
+        $bitacora->save();
+
+
         return view('users.index',compact('data'))
             ->with('i', ($request->input('page', 1) - 1) * 5);
+
     }
 
 

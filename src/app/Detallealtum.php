@@ -9,19 +9,7 @@ namespace App;
 
 use Reliese\Database\Eloquent\Model as Eloquent;
 
-/**
- * Class Detallealtum
- * 
- * @property int $id
- * @property int $activos_id
- * @property int $alta_id
- * @property int $cantidad
- * 
- * @property \App\Activo $activo
- * @property \App\Altum $altum
- *
- * @package App
- */
+
 class Detallealtum extends Eloquent
 {
 	public $timestamps = false;
