@@ -32,7 +32,7 @@ class ProveedorController extends Controller
         $proveedor->telefono = $request->input('telefono');
         $proveedor->correo = $request->input('correo');
 
-        //$proveedor->save();
+        $proveedor->save();
         return Redirect::to('proveedores');
     }
     public function edit ($id)

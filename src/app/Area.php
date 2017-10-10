@@ -9,7 +9,6 @@ class Area extends Model
   protected $table ='areas';
   protected $primarykey ='id';
   public $timestamps = false;
-
   protected $fillable = [
      'id ', 'nombre','sucursal_id'
   ];
