@@ -46,4 +46,5 @@ Route::group(['middleware' => ['auth']], function() {
 		Route::resource ('proveedores', 'ProveedorController');
 		Route::resource ('empresas', 'EmpresaController');
 		Route::resource ('areas', 'AreaController');
+		Route::resource ('bajas', 'BajaController');
 });
