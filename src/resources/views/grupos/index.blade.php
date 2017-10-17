@@ -38,7 +38,7 @@
     </div>
 
     <!-- widget grid -->
-    <section  class="">
+    <section id="widget-grid"  class="">
 
         <!-- row -->
         <div class="row">
@@ -46,7 +46,7 @@
             <!-- NEW WIDGET START -->
             <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-                <div class="jarviswidget jarviswidget-color-darken" id="wid-id-10" data-widget-editbutton="false">
+                <div class="jarviswidget jarviswidget-color-blueDark"  id="wid-id-0" data-widget-editbutton="false">
 
 
                     <header>
@@ -61,9 +61,6 @@
                             <table id="dt_basic" class="table table-striped table-bordered table-hover" width="100%">
                                 <thead>
                                 </br>
-
-
-
                                 <tr>
                                     <th class="non_searchable"  data-hide="phone">
                                         ID

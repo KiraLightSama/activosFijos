@@ -46,5 +46,20 @@ Route::group(['middleware' => ['auth']], function() {
 		Route::resource ('proveedores', 'ProveedorController');
     Route::get('backup/lista',['as'=>'backup.index','uses'=>'BackupController@index']);
     Route::get('backup',['as'=>'backup.backup','uses'=>'BackupController@backup']);
+    Route::get('bitacora',['as'=>'bitacora.index','uses'=>'BitacoraController@index']);
 
+
+    /// PERSONALIZACION/////
+    Route::get('personalizacion',function (){
+        return view('personalizacion.index');
+    })->name('personalizacion');
+
+    Route::get('impresora',function (){
+        return view('impresora.index');
+    })->name('impresora');
+
+    /// FIN PERSONALIZACION
+		Route::resource ('empresas', 'EmpresaController');
+		Route::resource ('areas', 'AreaController');
+		Route::resource ('bajas', 'BajaController');
 });

@@ -38,7 +38,7 @@
     </div>
 
     <!-- widget grid -->
-    <section  class="">
+    <section id="widget-grid"  class="">
 
         <!-- row -->
         <div class="row">

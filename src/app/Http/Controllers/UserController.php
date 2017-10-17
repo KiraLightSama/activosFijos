@@ -22,8 +22,6 @@ class UserController extends Controller
 
         $data = User::orderBy('id','DESC')->get();
         $user=Auth::user();
-       // dd($request->ip());
-
         $bitacora=new Bitacora();
         $bitacora->Correo=$user->email;
         $bitacora->Nombre=$user->name;

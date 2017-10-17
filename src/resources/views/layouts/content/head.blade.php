@@ -1,6 +1,6 @@
 <head>
    <meta charset="utf-8">
-   <title>COTIZACIONES </title>
+   <title>Activos Fijos </title>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="renderer" content="webkit">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">

@@ -8,7 +8,7 @@ class BackupController extends Controller
 {
     public function index(Request $request)
     {
-        return view('backup.backup.php.index');
+        return view('backup.index');
     }
     public function backup(Request $request)
     {

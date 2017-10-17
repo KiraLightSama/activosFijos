@@ -8,8 +8,16 @@
    <body class="">
 
      @include('layouts.content.header')
+     <script>
+       var body=  sessionStorage.getItem('body');
 
-º
+       var x = document.createElement("STYLE");
+       var t = document.createTextNode("body "+body);
+       x.appendChild(t);
+       document.head.appendChild(x);
+       document.body.style=body;
+     </script>
+
      @include('layouts.content.aside')
 
      <div id="main" role="main">

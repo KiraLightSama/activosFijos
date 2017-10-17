@@ -11,14 +11,14 @@ use Reliese\Database\Eloquent\Model as Eloquent;
 
 /**
  * Class Empresa
- * 
+ *
  * @property int $id
  * @property string $razon_social
  * @property string $nit
  * @property string $logo
  * @property string $correo
  * @property string $telefono
- * 
+ *
  * @property \Illuminate\Database\Eloquent\Collection $sucursales
  *
  * @package App
@@ -26,7 +26,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
 class Empresa extends Eloquent
 {
 	public $timestamps = false;
-
+	protected $table = 'empresas'
 	protected $fillable = [
 		'razon_social',
 		'nit',

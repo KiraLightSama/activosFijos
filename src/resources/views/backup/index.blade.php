@@ -86,16 +86,8 @@
 
 
 
-    <a href="/php/Backup.php">Realizar copia de seguridad</a>
-    <form action="./php./Restore.php" method="POST">
-        <label>Selecciona un punto de restauración</label><br>
-        <select name="restorePoint">
-            <option value="" disabled="" selected="">Selecciona un punto de restauración</option>
-            @include('backup.php.index')
+    @include('backup.sbmd.bkmysql')
 
-        </select>
-        <button type="submit" >Restaurar</button>
-    </form>
 
 
 @endsection
