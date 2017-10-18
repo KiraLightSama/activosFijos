@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Grupo;
+use App\Http\Controllers\BitacoraController;
 
 class GrupoController extends Controller
 {
     public function index(Request $request)
     {
         $grupos=Grupo::all();
+        BitacoraController::store($request,"Lista de Grupo");
         return view('grupos.index',compact('grupos'));
     }
 
@@ -32,6 +34,8 @@ class GrupoController extends Controller
         $grupo->codigo=$request->input('codigo');
 
         $grupo->save();
+
+        BitacoraController::store($request,"Creo un nuevo Grupo");
         return redirect()->action('GrupoController@index');
 
     }

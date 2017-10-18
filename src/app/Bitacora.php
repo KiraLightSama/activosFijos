@@ -12,7 +12,7 @@ class Bitacora extends Model
     public $timestamps = false;
 
     protected $fillable = [
-        'id ', 'Correo','Nombre','Accion','Navegador','fecha'
+        'id ', 'Correo','Nombre','Accion','Navegador','Url','fecha'
     ];
 
 }

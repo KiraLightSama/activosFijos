@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Empresa;
 use Illuminate\Http\Request;
 use App\Empresas;
 use DB;
 use Illuminate\Support\Facades\redirect;
+use App\Http\Controllers\BitacoraController;
 
 
 class EmpresaController extends Controller
@@ -15,9 +17,11 @@ class EmpresaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $empresas=DB::table('empresas')->get();
+
+        BitacoraController::store($request,"Lista de las empresas");
         return view('empresas.index',compact('empresas'));
     }
 
@@ -39,15 +43,21 @@ class EmpresaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'nombre' => 'required'
+        ]);
+        $Empresas = new Empresa();
+
+        $Empresas->nombre = $request->input('nombre');
+        $Empresas->sucursales_id = $request->input('ID');
+
+        $Empresas->save();
+
+        BitacoraController::store($request,"Creo un nuevo(a) Area o Departamento");
+        return redirect()->action('GrupoController@index');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function show($id)
     {
         //

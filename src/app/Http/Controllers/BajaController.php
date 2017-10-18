@@ -9,6 +9,7 @@ use App\Activo;
 use App\Baja;
 use App\Tipodecambio;
 use App\Causadebaja;
+use App\Http\Controllers\BitacoraController;
 
 class BajaController extends Controller
 {
@@ -17,9 +18,11 @@ class BajaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $bajas = DB::table('bajas')->get();
+
+        BitacoraController::store($request,"Lista las Bajas de Activos");
         return view ('bajas.index', compact('bajas'));
     }
 

@@ -8,6 +8,7 @@ use App\Role;
 use App\Permission;
 use DB;
 use Illuminate\Support\Collection as Collection;
+use App\Http\Controllers\BitacoraController;
 
 class RoleController extends Controller
 {
@@ -15,6 +16,8 @@ class RoleController extends Controller
     public function index(Request $request)
     {
         $roles = Role::orderBy('id','DESC')->paginate(5);
+
+        BitacoraController::store($request,"Lista de los roles o grupos");
         return view('roles.index',compact('roles'))
             ->with('i', ($request->input('page', 1) - 1) * 5);
     }
@@ -55,6 +58,7 @@ class RoleController extends Controller
             $role->attachPermission($value);
         }
 
+        BitacoraController::store($request,"Creo un nuevo Rol");
         return redirect()->route('roles.index')
                         ->with('success','Role created successfully');
     }
@@ -117,6 +121,7 @@ class RoleController extends Controller
             $role->attachPermission($value);
         }
 
+        BitacoraController::store($request,"Modifico un Rol");
         return redirect()->route('roles.index')
                         ->with('success','Role updated successfully');
     }

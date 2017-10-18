@@ -10,6 +10,7 @@ use App\Grupo;
 use App\TipoCambio;
 use App\Proveedor;
 use App\Area;
+use App\Http\Controllers\BitacoraController;
 
 class ActivoController extends Controller
 {
@@ -18,6 +19,7 @@ class ActivoController extends Controller
 
         $activos=DB::table('activosfijos.view_activos')->get();
 
+      BitacoraController::store($request,"Lista de Activos");
       return view('activos.index',compact('activos'));
   }
 
@@ -74,6 +76,8 @@ class ActivoController extends Controller
       $activo->proveedores_id=$request->input('proveedor');
       $activo->grupos_id=$request->input('grupo');
       $activo->save();
+
+      BitacoraController::store($request,"Creo un nuevo Activo");
       return redirect()->action('ActivoController@index');
 
 
