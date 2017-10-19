@@ -14,9 +14,9 @@ class BitacoraController extends Controller
             return view('bitacora.index',compact('bitacoras'));
         }
 
+   
     public  static function store($request ,$accion)
     {
-      //  dd($request);
         $user=Auth::user();
 
         $bitacora=new Bitacora();
@@ -30,6 +30,4 @@ class BitacoraController extends Controller
         $bitacora->save();
 
     }
-
-
 }
