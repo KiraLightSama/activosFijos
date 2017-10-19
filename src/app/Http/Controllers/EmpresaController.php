@@ -20,7 +20,6 @@ class EmpresaController extends Controller
     public function index(Request $request)
     {
         $empresas=DB::table('empresas')->get();
-
         BitacoraController::store($request,"Lista de las empresas");
         return view('empresas.index',compact('empresas'));
     }
@@ -32,7 +31,7 @@ class EmpresaController extends Controller
      */
     public function create()
     {
-        //
+        return view('empresas.create');
     }
 
     /**
@@ -44,16 +43,24 @@ class EmpresaController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'nombre' => 'required'
+            'nit' => 'required',
+            'razon_social' => 'required',
+            'correo' => 'required|email',
+            'telefono' => 'required'
         ]);
-        $Empresas = new Empresa();
+        $empresas = new Empresa();
 
-        $Empresas->nombre = $request->input('nombre');
-        $Empresas->sucursales_id = $request->input('ID');
+        $empresas->nit = $request->input('nit');
+        $empresas->razon_social = $request->input('razon_social');
+        $empresas->correo = $request->input('correo');
+        $empresas->telefono = $request->input('telefono');
+        $empresas->logo = 'null';
 
-        $Empresas->save();
+        dd($empresas);
 
-        BitacoraController::store($request,"Creo un nuevo(a) Area o Departamento");
+        //$Empresas->save();
+
+        BitacoraController::store($request,"Creo un nueva Empresa");
         return redirect()->action('GrupoController@index');
     }
 
@@ -71,7 +78,8 @@ class EmpresaController extends Controller
      */
     public function edit($id)
     {
-        //
+        $empresas = Empresa::find($id);
+        return view('emprasas.edit', compact('empresas'));
     }
 
     /**

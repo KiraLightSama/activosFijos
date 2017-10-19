@@ -47,42 +47,41 @@
                                     @endif
                         <!-- widget content -->
                         <div class="widget-body no-padding">
-                        {!! Form::open(array('route' => ['proveedores.update', $proveedores->id],'method'=>'PATCH' ,'id'=>'smart-form-register','class'=>'smart-form')) !!}
-                        {!! Form::model($proveedores, ['method' => 'PATCH','route' => ['proveedores.update', $proveedores->id]]) !!}
+                        {!! Form::open(array('route' => ['empresa.update', $empresas->id],'method'=>'PATCH' ,'id'=>'smart-form-register','class'=>'smart-form')) !!}
+                        {!! Form::model($empresas, ['method' => 'PATCH','route' => ['proveedores.update', $empresas->id]]) !!}
                         {{ csrf_field() }}
                           <header>
                               CREAR NUEVO PROVEEDOR
                            </header>
 
-                          <fieldset>
-                              <section>
-                                  <label class="input"> <i class="icon-append fa fa-user"></i>
-                                      <input type="text" name="nombre" placeholder="NOMBRE COMPLETO" value="{{$proveedores->nombre}}" style="text-transform:uppercase">
-                                      <b class="tooltip tooltip-bottom-right">Ingrese el nombre completo del proveedor</b> </label>
-                              </section>
-                              <section>
-                                  <label class="input"> <i class="icon-append fa fa-envelope-o"></i>
-                                      <input type="text" name="empresa" placeholder="EMPRESA" value="{{$proveedores->empresa}}" style="text-transform:uppercase">
-                                      <b class="tooltip tooltip-bottom-right">Ingrese el nombre o razon social</b> </label>
-                              </section>
+                            <fieldset>
+                                <section>
+                                    <label class="input"> <i class="icon-append fa fa-user"></i>
+                                        <input type="text" name="nombre" placeholder="NOMBRE COMPLETO" style="text-transform:uppercase">
+                                        <b class="tooltip tooltip-bottom-right">Ingrese el nombre completo del proveedor</b> </label>
+                                </section>
+                                <section>
+                                    <label class="input"> <i class="icon-append fa fa-envelope-o"></i>
+                                        <input type="text" name="empresa" placeholder="EMPRESA" style="text-transform:uppercase">
+                                        <b class="tooltip tooltip-bottom-right">Ingrese el nombre o razon social</b> </label>
+                                </section>
 
-                              <section>
-                                  <label class="input"> <i class="icon-append fa fa-lock"></i>
-                                      <input type="number" name="telefono" placeholder="TELEFONO" value="{{$proveedores->telefono}}">
-                                      <b class="tooltip tooltip-bottom-right">Ingrese el numero de telefono</b> </label>
-                              </section>
-                              <section>
-                                  <label class="input"> <i class="icon-append fa fa-lock"></i>
-                                      <input type="email" name="correo" placeholder="CORREO" value="{{$proveedores->correo}}">
-                                      <b class="tooltip tooltip-bottom-right">Ingrese el correo</b> </label>
-                              </section>
-                          </fieldset>
-                          <footer>
-                              <button type="submit" class="btn btn-primary">
-                                       <i class="fa fa-save"></i>
-                                  GUARDAR
-                              </button>
-                          </footer>
+                                <section>
+                                    <label class="input"> <i class="icon-append fa fa-lock"></i>
+                                        <input type="number" name="telefono" placeholder="TELEFONO" id="password">
+                                        <b class="tooltip tooltip-bottom-right">Ingrese el numero de telefono</b> </label>
+                                </section>
+                                <section>
+                                    <label class="input"> <i class="icon-append fa fa-lock"></i>
+                                        <input type="email" name="correo" placeholder="CORREO" id="password">
+                                        <b class="tooltip tooltip-bottom-right">Ingrese el correo</b> </label>
+                                </section>
+                            </fieldset>
+                            <footer>
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i>
+                                    GUARDAR
+                                </button>
+                            </footer>
                         {!! Form::close() !!}
                           </div>
 
