@@ -26,7 +26,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
 class Empresa extends Eloquent
 {
 	public $timestamps = false;
-	protected $table = 'empresas'
+	protected $table = 'empresas';
 	protected $fillable = [
 		'razon_social',
 		'nit',

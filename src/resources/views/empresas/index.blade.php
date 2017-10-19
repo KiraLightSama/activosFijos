@@ -77,6 +77,7 @@
                                   <td>{{$empresa->telefono}}</td>
                                   <td>
                                     <a class="btn btn-primary" href="{{ route('empresas.edit',$empresa->id) }}">edit</a>
+                                      <a class="btn btn-danger" href="{{ route('empresas.destroy', $empresa->id) }}">borrar</a>
                                   </td>
                                 </tr>
                                   @endforeach
